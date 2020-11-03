@@ -1,10 +1,10 @@
 // This is the start of a function definition, it has the name of "myFunction", and has two parameters to hold incoming data, "option1" and "option2".
 function myFunction(option, option2) {
 
-    // creating a variable called product and assign the multipication of our parameters to it.
+    // creating a variable (local scope) called product that holds the multipication of our parameters to it.
     let product = option * option2;
 
-    // It does not run inside the website untill we call it.
+    // It does not run inside the website untill we call it.It is stored in the memory.
     console.log(product);
 
     //Here is we are the parameter option to our string "The value of the option parameter is ".
@@ -29,16 +29,16 @@ function myFunction(option, option2) {
     }
 
 }
-// creating a variable to hold the return. if the condition is met, it says"Everything is good!".
+// creating a variable to hold the return. if the condition is met, it will return the value that stated in the condition.
 let result = myFunction(1, 11);
-// we are creating a varaible to hold the return.if the condition is met, it says"An error happened!" .
+// we are creating a varaible to hold the return.if the condition is met, it will return the value that the condition is based on.
 
 let result2 = myFunction(2, 200);
 
 //we are using logical operator && to say if these two conditions are true for sure, then go to/execute console.log.
 if ( result === "An error happened" && result2 === "An error happened") {
 
-    //It prints out "Catastrophic failure." if it meets the condition above it.
+    //It prints out "Catastrophic failure." if it meets both conditions && in this situation.
     console.log("Catastrophic failure.");
 
 }
