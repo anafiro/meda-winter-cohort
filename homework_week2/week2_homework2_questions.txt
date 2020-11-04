@@ -1,0 +1,49 @@
+Why are you taking the back-end class? What are your current expectations of the back-end class?
+
+I am taking back-end class to understand how front-end is connectd to back-end. I like to learn about 
+database and server. Additionally, I like to learn more, practice, and imrpove my Javascript skills. Moreover,
+I am interested in pursuing full stack developer as a career which deals with both front-end and back-end. I need the knowledge.
+
+Before front-end class, did you have coding experience? What computer language(s) and how long ago?
+
+Yes, I had an introductory knowledge of python programming. I studied introduction to python programming 
+in in early 2019 for about 2 months.
+
+What front-end topics did you find difficult or what did you struggle with?
+
+I am pretty sure when it comes to HTML and CSS subjects, I am able to handle it better than when we talked 
+about especially using Json, for instance. The thing about the Javascript and related topics that I struggle with is that if 
+I make a mistake especailly when it is related to the logic, it takes me a long time to figure it out and fix it .  
+
+Did the front-end class meet your expectations? Explain how it did or did not.
+
+Yes, front-end class introduced me to how things are designed and worked together cosidering the websites. The projects that
+were given in the front-end class made me to apply things that I was thought during the class. I was so interested when I created 
+a website to some extent as I was introduced to.
+
+
+Are you switching careers or looking to add skills to your resume? Why?
+
+I am switching careers. Apart from my interest,I am looking forward to work in the field and support myself financially through it. 
+It is like a second chance for me.The reason is due to the job market and related uncertainies for certain jobs especially due to the outbreak.
+
+What books or other resources are you depending on outside of class to enhance your learning?
+
+I do not have a specific book name at the moment. But I try to use library as a resource to find books.
+Additionally, I use LinkedIn learning and Lynda.com. However, it all depends on how much and to what level 
+you want to find out about some subjects.
+
+Other than HTML, CSS, and JavaScript, what other computer languages are you currently learning or are interested in learning? Why?
+
+I am interested in knowing C and Python eventhough I am not sure how they are related to web programming. I have heard that 
+python is a popular language and it is used in web programming .On the other hand, I heard that it works better towards data science and machine learning. 
+I am also interesed in knowing C programming since it can applied to many things.
+
+Where do you see the industry going in the future?
+
+I am exploring to find out more about the tech industry. This is a very good question to think about. I guess it depends on which area you are concentrating on.
+
+After taking the back-end class do you plan or have already planned on continuing your learning in tech? What specifically do you plan on focusing?
+
+I am planning on continuing my learning in tech. I like to design and program websites. Additionally, I am interested in finding out about the UX/UI path and 
+related opportunities.  
