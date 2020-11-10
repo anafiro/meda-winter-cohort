@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,400;1,600&display=swap');
+
+
 html, bdoy {
     margin:0;
     padding:0;
@@ -64,7 +66,7 @@ html, bdoy {
   }
   
   #img-div {
-    background: darkgrey;
+    background: gray;
     padding: 10px;
     margin: 0;
   }
