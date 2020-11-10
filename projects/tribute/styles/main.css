@@ -37,12 +37,14 @@ html, bdoy {
     font-size: 3.25rem;
   }
   
-  a {
+  a:link {
     color: darkblue;
   }
-  
+  #footer a:link{
+      color: darkgray;
+  }
   a:visited {
-    color: purple;
+    color:darkgray;
   }
   
   #main {
