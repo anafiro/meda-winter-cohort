@@ -19,15 +19,15 @@ console.log(typeof contents);
 console.log(typeof contentsObject);
 
 const user = {
-    firstName: "Anahita",
-    lastName :"Firoozi",
-    location: "San Jose, CA", 
+    "firstName": "Anahita",
+    "lastName" :"Firoozi",
+    "location": "San Jose, CA", 
 
-    myInformatiom: function(){
+    "myInformatiom": function(){
         console.log("My full name is"+this.firstName + " " + this.lastName + "and I live in " + this.location);
     },
     belonggings: ["computer","puppy"],
-    online: True
+    "online": True
 };
         
 let jsonObjectConverted = JSON.stringify(user);
