@@ -45,13 +45,24 @@ parsedStringifiedJSON = JSON.parse(parsedStringifiedJSON);
 console.log(user);
 console.log(parsedStringifiedJSON);
 
-let secondItem = argument[1];
 
 let fileName;
 
-if (fileName!==arguments[2]){
-    secondItem= secondItem + arguments[2]
-    console.log("Here is the third item")
+const fileExists = fs.existsSync(fileName);
+
+if (fileExists === false) {
+    console.log("No file");
+    return;
+}
+
+let fileContents = fs.readFileSync(fileName, "utf-8");
+
+let secondItem = argument[1];
+
+if (fileName !== arguments[2]){
+    secondItem= secondItem + arguments[2];
+
+    console.log("Here is the third item/entry")
     return
 }
 
