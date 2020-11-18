@@ -21,13 +21,12 @@ console.log(typeof contentsObject);
 const user = {
     firstName: "Anahita",
     lastName :"Firoozi",
-    location: "San Jose, CA", 
 
     myInformatiom: function(){
-        console.log("My full name is"+this.firstName + " " + this.lastName + "and I live in " + this.location);
+        console.log("My full name is"+this.firstName + " " + this.lastName);
     },
-    belonggings: ["computer","puppy"],
-    online: True
+    location: "San Jose, CA", 
+
 };
         
 let jsonObjectConverted = JSON.stringify(user);
@@ -36,7 +35,7 @@ let jsonObjectConverted = JSON.stringify(user);
 fs.writeFileSync("new.json", jsonObjectConverted, "utf-8");
 
 user.myInformation();
-user["is online"];
+user.location;
 
 
 let parsedStringifiedJSON = fs.readFileSync("new.json", "utf-8");
@@ -46,56 +45,14 @@ parsedStringifiedJSON = JSON.parse(parsedStringifiedJSON);
 console.log(user);
 console.log(parsedStringifiedJSON);
 
+let secondItem = argument[1];
 
+let fileName;
 
-let history;
-
-if (fs.existsSync("history.txt")) {
-    
-    history = fs.readFileSync("history.txt", "utf-8");
-} else {
-    
-    fs.writeFileSync("history.txt", "", "utf-8");
-    history = "";
+if (fileName!==arguments[2]){
+    secondItem= secondItem + arguments[2]
+    console.log("Here is the third item")
+    return
 }
 
-// console.log(arguments);
-
-let fileName = arguments[2];
-
-// console.log(fileName);
-
-const fileExists = fs.existsSync(fileName);
-
-if (fileExists === false) {
-    console.log("The file does not exsit");
-    return;
-}
-
-// This method allows us to read a file.
-let fileContents = fs.readFileSync(fileName, "utf-8");
-
-// console.log(fileContents);
-
-
-let firstItem = `The first is ${fileName} `;
-
-console.log(firstItem);
-
-history = `${history}${fileName}`;
-
-history += firstItem;
-
-let secondItem = `The second is ${fileName} `;
-
-
-history = history + "\n" + secondItem;
-
-
-let thirdItem =  `The third is ${fileName} `;;
-
-if(){
-
-}
-
-fs.writeFileSync("history.txt", history, "utf-8");
+fs.writeFileSync("new.json", fileName, "utf-8");
