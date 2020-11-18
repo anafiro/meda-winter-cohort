@@ -48,6 +48,11 @@ console.log(parsedStringifiedJSON);
 
 let fileName;
 
+if (fs.existsSync("new.json")) {
+    
+    fileName= fs.readFileSync("new.json", "utf-8");
+}
+
 const fileExists = fs.existsSync(fileName);
 
 if (fileExists === false) {
@@ -57,10 +62,10 @@ if (fileExists === false) {
 
 let fileContents = fs.readFileSync(fileName, "utf-8");
 
-let secondItem = argument[1];
+let arguments = arguments[1];
 
 if (fileName !== arguments[2]){
-    secondItem= secondItem + arguments[2];
+    arguments = arguments + arguments[2];
 
     console.log("Here is the third item/entry")
     return
