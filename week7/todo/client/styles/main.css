@@ -1,0 +1,49 @@
+body {
+    background-color: lightseagreen;
+}
+#loading-icon {
+    display: none;
+}
+
+#submit-message {
+    display: none;
+}
+
+#loader {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+#loader #loader-icon {
+    position: relative;
+}
+
+#submit-area {
+    height: 30px;
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#message {
+    height: 25px;
+    position: absolute;
+}
+
+#message p {
+    position: relative;
+    margin-block-start: 0;
+    color: rgb(128, 0, 0);
+}
+
+
+#tasks tbody tr td:nth-child(5) {
+    position: absolute;
+}
+
+#tasks tbody tr td img {
+    display: none;
+    position: relative;
+}
